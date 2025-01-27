@@ -52,7 +52,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: "https://example.com",
+    url: "https://peace2.jp",
   },
   compatibilityDate: "2024-09-20",
 });

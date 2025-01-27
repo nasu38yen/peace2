@@ -2,20 +2,20 @@ import type Emoji from "./components/OgImage/Emoji.vue";
 
 export default defineAppConfig({
   general: {
-    title: "Minted Directory",
+    title: "スタジオピース",
     logo: "",
-    iconLogo: "fluent-emoji-flat:leaf-fluttering-in-wind",
+    iconLogo: "fluent-emoji-flat:thumbs-up",
   },
   site: {
     // override the general settings for seo tags.
     // leave empty for general priority.
     // url is necessary for correct function of seo module.
-    name: "Minted Directory",
-    description: "Example Description",
-    url: "https://example.com",
+    name: "スタジオピース",
+    description: "スタジオピースは、アートディレクション、デザイン、プログラミングを行うスタジオです。",
+    url: "https://peace2.jp",
     favicon: {
       image: "",
-      emoji: "🍃",
+      emoji: "✌🏿",
     },
   },
   directory: {
@@ -81,14 +81,14 @@ export default defineAppConfig({
     navbar: {
       colorModeSelector: true,
       links: [
-        { name: "Directory", to: "/" },
-        { name: "Blog", to: "/blog" },
-        { name: "Advertise", to: "/advertise" },
-        {
-          name: "Analytics",
-          to: "https://us.posthog.com/shared/7dgSk4cvgNYnJwBu6R47kZXHBUBJWQ",
-          target: "_blank",
-        },
+        // { name: "Directory", to: "/" },
+        // { name: "Blog", to: "/blog" },
+        // { name: "Advertise", to: "/advertise" },
+        // {
+        //   name: "Analytics",
+        //   to: "https://us.posthog.com/shared/7dgSk4cvgNYnJwBu6R47kZXHBUBJWQ",
+        //   target: "_blank",
+        // },
       ],
     },
     actionButton: {

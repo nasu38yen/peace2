@@ -5,7 +5,6 @@ const layoutName = computed(() => layout.value || 'wide');
 </script>
 
 <template>
-
   <AppLayout>
     <NuxtLayout :name="layoutName">
       <NuxtPage class="page-enter-active" />
