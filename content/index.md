@@ -32,6 +32,6 @@ layout: wide
 
 # 日記
 
- - [日記](https://bmop4.nuxt.dev/blog/last )
+ - [日記](https://bmop4.nuxt.dev/bmop/last )
  - [古い日記](https://nasu38yen.wordpress.com/)
  - [もっと古い日記](http://peaceb.cocolog-nifty.com/)
