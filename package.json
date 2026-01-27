@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "@nuxt/content": "^3.10.0",
-    "@nuxt/ui": "^4.3.0",
+    "@nuxt/ui": "^4.4.0",
     "better-sqlite3": "^12.6.0",
     "nuxt": "^4.2.2"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.86"
   }
 }
