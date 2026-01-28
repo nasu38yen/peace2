@@ -4,7 +4,7 @@
         <div class="px-4 py-1 hover:bg-gray-50 hover:text-orange-500"><nuxt-link to="/">　</nuxt-link></div>
       </nav>
       <div>
-        <span>Copyright (C) 2026 WP2NC</span>
+        <span>Copyright (C) 2026 PEACE2</span>
       </div>
     </div>
 </template>

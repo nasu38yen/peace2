@@ -29,19 +29,18 @@ defineProps({
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
-  align-items: center;
-  padding: 1.5rem;
+  align-items: start;
   border: 1px solid #e5e7eb;
   border-radius: 0.5rem;
-  background-color: #fff;
   margin: 1.5rem 0;
   width: 100%;
   box-sizing: border-box;
+  overflow: hidden;
+
 }
 
 .photo-card-image {
   overflow: hidden;
-  border-radius: 0.5rem;
   width: 100%;
   min-width: 0;
 }
@@ -62,6 +61,7 @@ defineProps({
 }
 
 .photo-card-content {
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -71,6 +71,7 @@ defineProps({
 
 .photo-card-description {
   color: #4b5563;
+  font-size: 1.2rem;
   line-height: 1.6;
   word-wrap: break-word;
 }
