@@ -1,14 +1,17 @@
 <template>
-    <div class="flex flex-col  bg-stone-200 dark:bg-stone-900 dark:text-stone-50">
-        <div class="sticky top-0">
-            <Header />
-        </div>
-        <div class="container mx-auto max-w-screen-xl px-2"> 
+    <div class=" bg-stone-200 dark:bg-stone-900 dark:text-stone-50">
+        <UHeader title="" class="">
+            <template #left>
+                <UButton color="neutral" variant="outline" to="/" icon="i-lucide-house"></UButton>
+            </template>
+        </UHeader>
+        <UMain class="container mx-auto max-w-screen-xl px-2">
             <slot />
-        </div>        
-        <div class="pt-2">
-            <Footer />
-        </div>
+        </UMain>
+        <UFooter />
     </div>
 </template>
+
+<script setup lang="ts">
+</script>
   
